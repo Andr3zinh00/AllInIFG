@@ -1,0 +1,67 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+.mainFxmlClass {
+
+}
+.alert{
+
+    -fx-border-radius: 10px;
+    -fx-background-color: 
+        linear-gradient(#404040, #5c5d5e);
+    -fx-background-insets: 0,1,2;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 20, 0, 5, 0);
+
+
+}
+.pane{
+   
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 20, 0, 5, 0);
+    -fx-background-image: url("../imagens/backgrounds/pane.png");
+    -fx-background-size:cover;
+    -fx-alignment: center;
+
+
+}
+.StackPane{
+    -fx-background-image: url("../imagens/backgrounds/jogo.png");
+    -fx-background-size:cover;
+    -fx-alignment: center;
+}
+.button{
+    -fx-background-color: 
+        #c0770e,
+        linear-gradient(#f9f873, #f9f873),
+        linear-gradient(#ca964a 0%, #ca964a 49%, #d48a10 50%, #d59c20 100%);
+    -fx-background-insets: 0,1,2;
+
+}
+.button:hover {
+    -fx-background-color: 
+        #c0770e,
+        linear-gradient(#f9f873, #f9f873),
+        linear-gradient(#ca964a 0%, #f9f873 49%, #d48a10 50%, #d59c20 100%);
+    -fx-background-insets: 0,1,2;
+}
+/*.button:pressed {
+    -fx-scale-y: 0.9;
+    -fx-scale-x: 0.9;
+}*/
+
+.mainFxmlClass {
+
+}
+
+.ImageView{
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);
+}
+
+.ImageView:pressed{
+    -fx-effect: dropshadow(three-pass-box, #ffcc01, 10, 0, 0, 0);
+    -fx-scale-y: 0.95;
+    -fx-scale-x: 0.95;
+}
+.ImageView:hover{
+    -fx-effect: dropshadow(three-pass-box, #01b4ff, 10, 0, 0, 0);
+}
